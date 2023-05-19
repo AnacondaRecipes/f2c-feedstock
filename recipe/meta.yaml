@@ -20,7 +20,7 @@ source:
     - patches/wsfe.c.patch
 
 build:
-  number: 1010
+  number: 0
   skip: True  # [vc < 14 and win]
 
 requirements:
@@ -45,14 +45,15 @@ test:
     - f2c test_main.f && ${CC} test_main.c -L${PREFIX}/lib -lf2c -lm -I${PREFIX}/include -o test_main -Wl,-rpath,${PREFIX}/lib && ./test_main  # [not win]
 
 about:
-  home: http://www.netlib.org/f2c/
+  home: https://www.netlib.org/f2c/
   license: SMLNJ
   license_file: LICENSE
+  license_family: OTHER
   summary: 'f2c is a program to convert Fortran 77 to C code, developed at Bell Laboratories.'
   description:  The standalone f2c program was based on the core of the first complete Fortran 77
                 compiler to be implemented, the "f77" program by Feldman and Weinberger.
-  doc_url: http://www.netlib.org/f2c/README
-  dev_url: http://www.netlib.org/f2c/
+  doc_url: https://www.netlib.org/f2c/README
+  dev_url: https://www.netlib.org/f2c/
 
 extra:
   recipe-maintainers:
