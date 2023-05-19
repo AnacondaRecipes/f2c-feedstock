@@ -17,7 +17,7 @@ source:
   - patches:
     - patches/f2c.h0.patch
     - patches/signal_.c.patch
-    - patches/wsfe.c.patch 
+    - patches/wsfe.c.patch
 
 build:
   number: 0
