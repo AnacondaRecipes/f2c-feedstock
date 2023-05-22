@@ -8,10 +8,10 @@ package:
   version: {{ version }}
 
 source:
-  - url: https://web.archive.org/web/{{ version }}/https://netlib.sandia.gov/f2c/libf2c.zip
+  - url: https://www.netlib.org/{{ name }}/libf2c.zip
     folder: libf2c
     sha256: {{ libsha256 }}
-  - url: https://web.archive.org/web/{{ version }}/https://netlib.sandia.gov/f2c/src.tgz
+  - url: https://www.netlib.org/{{ name }}/src.tgz
     folder: src
     sha256: {{ srcsha256 }}
   - patches:
