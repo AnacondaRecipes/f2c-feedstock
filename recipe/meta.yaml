@@ -14,10 +14,6 @@ source:
   - url: https://www.netlib.org/{{ name }}/src.tgz
     folder: src
     sha256: {{ srcsha256 }}
-  # - patches:
-  #   - patches/f2c.h0.patch
-  #   - patches/signal_.c.patch
-  #   - patches/wsfe.c.patch
 
 build:
   number: 0
