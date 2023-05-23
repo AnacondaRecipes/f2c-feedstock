@@ -22,7 +22,7 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
-    - cmake
+    - cmake  # [not win]
     - make  # [not win]
     - ninja  # [win]
 
