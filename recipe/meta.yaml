@@ -1,5 +1,5 @@
 {% set name = "f2c" %}
-{% set version = "20210323183018" %}
+{% set version = "20200916" %}
 {% set libsha256 = "ca404070e9ce0a9aaa6a71fc7d5489d014ade952c5d6de7efb88de8e24f2e8e0" %}
 {% set srcsha256 = "d4847456aa91c74e5e61e2097780ca6ac3b20869fae8864bfa8dcc66f6721d35" %}
 
